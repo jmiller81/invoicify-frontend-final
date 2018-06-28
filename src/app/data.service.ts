@@ -11,7 +11,7 @@ import 'rxjs/add/observable/empty';
 @Injectable()
 export class DataService {
 
-    private baseUrl = 'https://localhost:8080/api/'
+    private baseUrl = 'https://fast-springs-19551.herokuapp.com/'
 
     found = false;
 
